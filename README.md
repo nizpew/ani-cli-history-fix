@@ -14,6 +14,11 @@ This script enhances the functionality of **ani-cli** by fixing issues related t
 ```bash
 sudo mv ./anicli /usr/local/bin/
 chmod +x /usr/local/bin/anicli
+
+#OTHER, FUTURE
+sudo chown root:root /home/troll/MyKanbanApp-linux-x64/chrome-sandbox
+sudo chmod 4755 /home/troll/MyKanbanApp-linux-x64/chrome-sandbox
+
 ```
 
 ## Usage
