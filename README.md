@@ -32,6 +32,8 @@ ani-cli "Saijaku Muhai no Bahamut" -e 1
 ## Dependencies
 - **ani-cli**: Ensure you have `ani-cli` installed.
 - **fzf**: For the selection interface.
+: npm install @szhsin/react-menu
+
 
 ## How the Script Works
 - The script retrieves the list of recent anime episodes using `ani-cli -l`.
