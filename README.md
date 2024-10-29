@@ -35,6 +35,7 @@ ani-cli "Saijaku Muhai no Bahamut" -e 1
 ```
 
 ## Dependencies
+works only on linux
 - **ani-cli**: Ensure you have `ani-cli` installed.
 - **fzf**: For the selection interface.
 : npm install @szhsin/react-menu
