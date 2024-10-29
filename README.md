@@ -12,7 +12,9 @@ This script enhances the functionality of **ani-cli** by fixing issues related t
 
 ## How to Install
 ```bash
-sudo mv ./anicli /usr/local/bin/
+git clone https://github.com/nizpew/ani-cli-history-fix.git
+cd ani-cli-history-fix
+sudo cp ./anicli /usr/local/bin/
 chmod +x /usr/local/bin/anicli
 
 #OTHER, FUTURE
