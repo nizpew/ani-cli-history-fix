@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output=$(ani-cli -l | awk '/ani-cli\[[0-9]+\]:/ {for (i=6; i<=NF; i++) printf "%s%s", $i, (i<NF ? " " : "\n")}'| tail | tac)
+output=$(ani-cli -l | awk '/ani-cli\[[0-9]+\]:/ {for (i=6; i<=NF; i++) printf "%s%s", $i, (i<NF ? " " : "\n")}'| tac | uniq )
 
 
 
