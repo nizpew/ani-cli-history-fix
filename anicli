@@ -27,5 +27,5 @@ episode_number=$(echo $selected | awk '{print $NF}')
 
 echo "name's: $anime_name and ep's $episode_number"
 
-    ani-cli "$anime_name" -e "$episode_number"
+    ani-cli --vlc "$anime_name" -e "$episode_number"
 
