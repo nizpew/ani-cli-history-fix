@@ -1,14 +1,16 @@
 # Ani-cli History Fix Script
 [status: working.]
 
-Your go-to solution for managing your anime watch history!
+Your go-to solution for managing your anime watch history, automatic fullscreen on mpv, and automatic next episode!
 
-This script enhances the functionality of **ani-cli** by fixing issues related to watch history implementation and providing a more user-friendly experience for selecting and playing episodes.
+This script enhances the functionality of ani-cli by fixing issues related to watch history implementation and providing a more user-friendly experience for selecting and playing episodes.
+
 
 ## Features
-- **Select and Play**: Easily select the latest episodes of your favorite anime.
-- **User -Friendly Interface**: Utilizes `fzf` for a smooth selection process.
-- **Customizable**: Modify the script to suit your preferences.
+-Type anicli (without the dash), and it will show you the history. You can continue the last watch with a click of Enter.
+mpv automatically goes fullscreen.
+-Automatically starts the next episode of the anime!!!
+
 
 ## How to Install
 ```bash
@@ -24,6 +26,7 @@ sudo chmod 4755 /home/troll/MyKanbanApp-linux-x64/chrome-sandbox
 ```
 
 ## Usage
+remember , without the dash
 Simply type:
 ```bash
 anicli
