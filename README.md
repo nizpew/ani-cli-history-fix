@@ -17,6 +17,7 @@ mpv automatically goes fullscreen.
 git clone https://github.com/nizpew/ani-cli-history-fix.git
 cd ani-cli-history-fix
 sudo cp ./anicli /usr/local/bin/
+sudo cp ./ani-cli /usr/local/bin/
 chmod +x /usr/local/bin/anicli
 
 #OTHER, FUTURE
